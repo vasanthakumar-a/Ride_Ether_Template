@@ -5,6 +5,7 @@
      height: 55px;
  }
 
+
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
@@ -1084,6 +1085,7 @@ ul.top_icon li a {
      padding: 15px 26px;
      padding-top: 24px;
 }
+
 .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -1202,6 +1204,16 @@ ul.top_icon li a {
 }
 .main-w img {
      width: 100%;
+}
+.women-box {
+     position: relative;
+}
+.women-box::before {
+     content: "";
+     position: absolute;
+     background: rgba(0, 0, 0, 0.3);
+     width: 100%;
+     height: 100%;
 }
 .banner-up-text {
      position: absolute;
@@ -1693,16 +1705,347 @@ input[type="radio"] .styled:checked+label::after {
      font-weight: 400;
      border: solid #ee580f 1px;
      padding: 10px 77px;
-     margin: 57px 0px 0px 25px;
+     margin: 20px 0px 0px 25px;
 }
 .main-form a:hover {
      background: #15cfe5;
      border: solid #15cfe5 1px;
 }
+.about {
+     padding-top: 0px !important;
+     padding: 90px 0px;
+}
+.aboutheading {
+     text-align: center;
+     padding-bottom: 50px;
+}
+.titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 50px;
+     font-weight: bold;
+     color: #050303;
+     line-height: 50px;
+     text-transform: uppercase;
+     position: relative;
+     display: inline-block;
+}
+.titlepage h2::before {
+     right: 100%;
+     margin-right: 15px;
+}
+.titlepage h2::after {
+     left: 100%;
+     margin-left: 15px;
+}
+.titlepage h2::before,
+.titlepage h2::after {
+     content: "";
+     position: absolute;
+     height: 5px;
+     border-top: 1px solid #13aba6;
+     top: 27px;
+     width: 149px;
+}
+.aboutheading span {
+     color: #141012;
+     font-size: 17px;
+     line-height: 32px;
+     display: block;
+}
 .button_section {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
+}
+.about .about-box p span {
+     display: inline-block;
+     padding-right: 360px;
+}
+.palne-img-area {
+     position: absolute;
+     top: -30px;
+     right: -78px;
+}
+.about a {
+     width: 200px;
+     font-size: 17px;
+     padding: 20px 0px;
+     background-color: #ee580f;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+}
+.about a:hover {
+     background: #15cfe5;
+     ;
+}
+.traveling {
+     background-color: #fff;
+     padding: 0px 0px 90px 0;
+}
+.titlepage {
+     text-align: center;
+     padding-bottom: 54px;
+}
+.titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #000;
+     line-height: 50px;
+     text-transform: uppercase;
+     position: relative;
+     display: inline-block;
+}
+.titlepage span {
+     color: #141012;
+     font-size: 17px;
+     line-height: 32px;
+     display: block;
+}
+.titlepage h2::before {
+     right: 100%;
+     margin-right: 15px;
+}
+.titlepage h2::after {
+     left: 100%;
+     margin-left: 15px;
+}
+.titlepage h2::before,
+.titlepage h2::after {
+     content: "";
+     position: absolute;
+     height: 5px;
+     border-top: 1px solid #13aba6;
+     top: 27px;
+     width: 149px;
+}
+.traveling-box {
+     padding: 0px 5px 0px 5px;
+     text-align: center;
+}
+.traveling-box h3 {
+     padding-top: 20px;
+     font-size: 25px;
+     line-height: 31px;
+     color: #100808;
+}
+.traveling-box p {
+     color: #100808;
+     font-size: 17px;
+     line-height: 26px;
+}
+.traveling-box .read-more {
+     justify-content: center;
+     display: flex;
+}
+.traveling-box .read-more a {
+     font-size: 17px;
+     padding: 15px 30px;
+     background-color: #ee580f;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin-top: 30px;
+}
+.traveling-box .read-more a:hover {
+     background: #15cfe5;
+}
+.London {
+     background-color: #fff;
+}
+.London .titlepage {
+     text-align: center;
+     padding-bottom: 54px;
+}
+.titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #000;
+     line-height: 50px;
+     text-transform: uppercase;
+     display: inline-block;
+     position: relative;
+}
+.titlepage span {
+     color: #141012;
+     font-size: 17px;
+     line-height: 32px;
+     display: block;
+}
+.titlepage h2::before {
+     right: 100%;
+     margin-right: 15px;
+}
+.titlepage h2::after {
+     left: 100%;
+     margin-left: 15px;
+}
+.titlepage h2::before,
+.titlepage h2::after {
+     content: "";
+     position: absolute;
+     height: 5px;
+     border-top: 1px solid #13aba6;
+     top: 27px;
+     width: 149px;
+}
+.London-img {
+     margin: 0 -15px;
+}
+.London .London-img figure {
+     margin: 0px;
+}
+.Tours {
+     background-color: #fff;
+     margin-top: 90px;
+}
+.Tours .titlepage {
+     text-align: center;
+     padding-bottom: 54px;
+}
+.titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #000;
+     line-height: 50px;
+     text-transform: uppercase;
+     display: inline-block;
+     position: relative;
+}
+.titlepage span {
+     color: #141012;
+     font-size: 17px;
+     line-height: 32px;
+     display: block;
+}
+.titlepage h2::before {
+     right: 100%;
+     margin-right: 15px;
+}
+.titlepage h2::after {
+     left: 100%;
+     margin-left: 15px;
+}
+.titlepage h2::before,
+.titlepage h2::after {
+     content: "";
+     position: absolute;
+     height: 5px;
+     border-top: 1px solid #13aba6;
+     top: 27px;
+     width: 149px;
+}
+.item h3 {
+     font-size: 20px;
+     line-height: 29px;
+     padding: 10px 10px 10px 10px;
+     color: #282727;
+}
+.item p {
+     padding: 0px 10px 10px 10px;
+     color: #282727;
+}
+.owl-nav {
+     display: none;
+}
+.owl-dot {
+     background: #15cfe5 !important;
+     width: 25px;
+     height: 25px;
+     margin-bottom: 25px !important;
+     border-radius: 25px;
+     margin: 0px 5px;
+}
+.amazing {
+     background: url(../images/Amazing.jpg);
+     padding: 90px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+.amazing .amazing-box {
+     text-align: center;
+}
+.amazing .amazing-box h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #fff;
+     line-height: 50px;
+     text-transform: uppercase;
+}
+.amazing .amazing-box span {
+     color: #fff;
+     font-size: 17px;
+     line-height: 32px;
+     display: inline-block;
+     margin-bottom: 35px;
+}
+.amazing .amazing-box a {
+     font-size: 17px;
+     padding: 15px 50px;
+     background-color: #ee580f;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin: 0 10px;
+}
+.amazing .amazing-box a:hover {
+     background: #15cfe5;
+}
+.blog {
+     background-color: #fff;
+     padding-top: 90px;
+}
+.titlepage {
+     text-align: center;
+}
+.titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 45px;
+     font-weight: bold;
+     color: #0e0f10;
+     line-height: 50px;
+     text-transform: uppercase;
+     display: inline-block;
+     position: relative;
+}
+.titlepage span {
+     color: #0e0f10;
+     font-size: 17px;
+     line-height: 32px;
+     display: inline-block;
+     margin-bottom: 0px;
+     display: block;
+}
+.titlepage h2::before {
+     right: 100%;
+     margin-right: 15px;
+}
+.titlepage h2::after {
+     left: 100%;
+     margin-left: 15px;
+}
+.titlepage h2::before,
+.titlepage h2::after {
+     content: "";
+     position: absolute;
+     height: 5px;
+     border-top: 1px solid #13aba6;
+     top: 27px;
+     width: 149px;
 }
 .blue h3 {
      background: #fff;
@@ -1713,6 +2056,37 @@ input[type="radio"] .styled:checked+label::after {
      padding: 2%;
      position: relative;
      text-align: center;
+}
+.blog .blog-box figure {
+     margin: 0px;
+}
+.blog .blog-box figure span {
+     top: 0;
+     left: 0px;
+     position: absolute;
+     margin-left: 15px;
+     background: #022739;
+     padding: 10px 30px;
+     color: #fff;
+}
+.blog .blog-box h3 {
+     font-size: 20px;
+     line-height: 30px;
+}
+.blog .blog-box p {
+     font-size: 16px;
+     line-height: 30px;
+}
+.blog .blog-box .travel {
+     padding: 15px 0px;
+}
+.blog .blog-box .travel span {
+     color: #13aba6;
+     display: inline-block;
+}
+.blog .blog-box .travel p {
+     float: right;
+     padding-left: 15px;
 }
 .like {
      color: #3ea9dd;
@@ -1822,6 +2196,12 @@ ul.location_icon span {
      padding-top: 10px;
      border-top: #807d7d solid 1px;
 }
+.copyright a {
+     color: #fff;
+}
+.copyright a:hover {
+     color: #15cfe5;
+}
 
 .owl-dot {
     background: #000 !important;
@@ -1832,9 +2212,38 @@ ul.location_icon span {
     margin: 0px 5px;
         margin-bottom: 0px;
 }
+
+.owl-dot.active {
+    background: #15cfe5 !important;
+}
+
+.about_page .about {
+     margin-bottom: 90px;
+}
+.about-bg {
+     background-color: #b32137;
+     margin-top: 90px;
+}
+.Books-bg .titlepage {
+     margin-top: 90px;
+}
+.Books-bg .read-more {
+     margin-bottom: 90px;
+}
+.about-bg .abouttitle h2 {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 40px;
+     line-height: 45px;
+     padding: 40px 0;
+     font-weight: 500;
+     text-align: center;
+}
 .contact-page .Contact {
      margin-top: 0px;
 }
 .contact-page .form-control {
      margin-bottom: 20px;
 }
+
+/** slider arrow **/
